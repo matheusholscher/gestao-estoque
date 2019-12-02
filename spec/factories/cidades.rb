@@ -1,6 +1,6 @@
 FactoryBot.define do
   factory :cidade do
-    estado { nil }
-    nome { "MyString" }
+    nome { 'Matheus' }
+    association :estado, factory: :estado
   end
 end

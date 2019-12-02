@@ -1,6 +1,6 @@
 FactoryBot.define do
   factory :unidade do
-    descricao { "MyString" }
-    sigla { "MyString" }
+    descricao { 'Fardos' }
+    sigla { 'FA' }
   end
 end

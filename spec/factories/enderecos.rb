@@ -1,9 +1,10 @@
 FactoryBot.define do
   factory :endereco do
-    cidade { nil }
-    cep { "MyString" }
-    logradouro { "MyString" }
-    bairro { "MyString" }
-    complemento { "MyString" }
+    cep { '85618000' }
+    logradouro { 'Rua Adenis Barbieri' }
+    bairro { 'Centro' }
+    complemento { '4885' }
+
+    association :cidade, factory: :cidade
   end
 end

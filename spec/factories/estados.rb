@@ -1,5 +1,5 @@
 FactoryBot.define do
   factory :estado do
-    uf { "MyString" }
+    uf { 'PR' }
   end
 end
