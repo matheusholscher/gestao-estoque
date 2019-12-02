@@ -17,7 +17,7 @@ RSpec.describe GestaoEstoque, type: :model do
         GestaoEstoque.comprar(FactoryBot.create(:movimentacao,
                                                          operacao: mov_compra))
       }
-      it 'instancia compra' do
+      it 'deve retornar uma instancia da compra' do
         expect(compra).to be_an_instance_of(Movimentacao)
       end
       it 'deve salvar a compra' do
@@ -42,7 +42,6 @@ RSpec.describe GestaoEstoque, type: :model do
         expect {
           GestaoEstoque.new(rdata, operacao, quantidade).movimentar
         }.to raise_error(an_instance_of(StandardError).and having_attributes(message: 'Não é possível realizar a venda pois não possui estoque do produto'))
-      end
+        end
     end
-  end
 end
