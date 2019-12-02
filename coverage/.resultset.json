@@ -298,6 +298,7 @@
         1,
         1,
         1,
+        null,
         1,
         null,
         null
@@ -318,12 +319,43 @@
       ],
       "/home/projetos/gestao_estoque/spec/factories/movimentacaos.rb": [
         1,
+        null,
         1,
         1,
         1,
+        null,
         1,
         1,
         1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
         null,
         null
       ],
@@ -336,6 +368,8 @@
         null
       ],
       "/home/projetos/gestao_estoque/spec/factories/pessoas.rb": [
+        1,
+        1,
         1,
         1,
         1,
@@ -503,9 +537,15 @@
         1,
         1,
         null,
+        null,
         1,
         1,
         1,
+        null,
+        1,
+        0,
+        null,
+        null,
         null
       ],
       "/home/projetos/gestao_estoque/spec/models/operacao_spec.rb": [
@@ -587,6 +627,6 @@
         null
       ]
     },
-    "timestamp": 1574732517
+    "timestamp": 1575306296
   }
 }
